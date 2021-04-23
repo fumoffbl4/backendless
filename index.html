@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+      integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+      crossorigin="anonymous"
+    ></script>
+    <title>Backendless Gallery</title>
+  </head>
+
+  <body class="light">
+    <header class="header">
+      <div class="wrapper">
+        <div class="header__logo">
+          <a href="#">Backendless</a>
+        </div>
+
+        <div class="header__theme">
+          <div class="header__radio desktop">
+            <input
+              type="radio"
+              id="theme-radio-light"
+              name="theme-radio"
+              value="light"
+              checked
+            />
+            <label for="theme-radio-light">Light Theme</label>
+
+            <input
+              type="radio"
+              id="theme-radio-dark"
+              name="theme-radio"
+              value="dark"
+            />
+            <label for="theme-radio-dark">Dark Theme</label>
+
+            <input
+              type="radio"
+              id="theme-radio-grey"
+              name="theme-radio"
+              value="grey"
+            />
+            <label for="theme-radio-grey">Grey Theme</label>
+          </div>
+
+          <div class="header__buttons tablet">
+            <button type="button" value="light">Light Theme</button>
+            <button type="button" value="dark">Dark Theme</button>
+            <button type="button" value="grey">Grey Theme</button>
+          </div>
+
+
+            <select class="header__select mobile" name="theme-select" id="theme">
+              <option value="light" selected>Light Theme</option>
+              <option value="dark">Dark Theme</option>
+              <option value="grey">Grey Theme</option>
+            </select>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="gallery">
+        <h1 class="gallery__header">Backendless Gallery</h1>
+        <div class="gallery__content">
+          <div class="gallery__item">
+            <img src="img/placeholder.png" alt="placeholder" />
+          </div>
+          <div class="gallery__item">
+            <img src="img/placeholder.png" alt="placeholder" />
+          </div>
+          <div class="gallery__item">
+            <img src="img/placeholder.png" alt="placeholder" />
+          </div>
+          <div class="gallery__item">
+            <img src="img/placeholder.png" alt="placeholder" />
+          </div>
+          <div class="gallery__item">
+            <img src="img/placeholder.png" alt="placeholder" />
+          </div>
+          <div class="gallery__item">
+            <img src="img/placeholder.png" alt="placeholder" />
+          </div>
+          <div class="gallery__item">
+            <img src="img/placeholder.png" alt="placeholder" />
+          </div>
+          <div class="gallery__item">
+            <img src="img/placeholder.png" alt="placeholder" />
+          </div>
+          <div class="gallery__item">
+            <img src="img/placeholder.png" alt="placeholder" />
+          </div>
+          <div class="gallery__item">
+            <img src="img/placeholder.png" alt="placeholder" />
+          </div>
+          <div class="gallery__item">
+            <img src="img/placeholder.png" alt="placeholder" />
+          </div>
+          <div class="gallery__item">
+            <img src="img/placeholder.png" alt="placeholder" />
+          </div>
+        </div>
+      </section>
+      <hr size="0" />
+    </main>
+    <footer class="footer">
+      <div class="wrapper">
+        <div class="footer__contacts">
+          <a href="http://backendless.com/">Backendless.com</a>
+          <a href="tel:555555555">555-555-555</a>
+        </div>
+        <div class="footer__social">
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-facebook-square"></i></a>
+          <a href="#"><i class="fab fa-twitter-square"></i></a>
+          <a href="#"><i class="fab fa-telegram"></i></a>
+          <a href="#"><i class="fab fa-youtube"></i></a>
+          <a href="#"><i class="fab fa-vk"></i></a>
+          <a href="#"><i class="fas fa-envelope"></i></a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/index.js"></script>
+  </body>
+</html>
